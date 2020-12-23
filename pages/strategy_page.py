@@ -13,6 +13,9 @@ class Strategy_Widget(Base, Form):
         super(self.__class__, self).__init__(parent)
         self.setupUi(self)
 
+        # setCrrentIndex worsk here
+        # self.strategy_page_sell_stackedWidget.setCurrentIndex(1)
+
     def display_rule_form_for_buy_strategy(self):
         print('func init')
         self.strategy_page_sell_stackedWidget.setCurrentIndex(1)
