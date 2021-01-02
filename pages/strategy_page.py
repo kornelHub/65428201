@@ -10,7 +10,6 @@ class Strategy_Widget(Base, Form):
     buy_stackedWidget_object = None
     def __init__(self, parent=None):
         super(self.__class__, self).__init__(parent)
-        print('***', self)
         self.setupUi(self)
 
 if __name__ == '__main__':
